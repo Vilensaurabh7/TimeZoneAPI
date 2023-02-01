@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>F3-Test</title>
+</head>
+<body>
+    <div class="container">
+        <div class="parent">
+            <div class="main">
+                <div class="mainF">
+                   <h1 id="head1">
+                    TimeZone API
+                   </h1>
+                   <h1>Your Current Time Zone</h1>
+                </div>
+                <div class="mainS">
+                    <div class="equal">
+                    <label >name of time zone :</label>
+                    <input type="text"id="name" value="ram">
+                </div>
+                
+                    <div class="long">
+                        <div class="equal">
+                        <label >lat :</label>
+                        <input type="number"id="lat" value="">
+                    </div>
+                        <div class="equal">
+                        <label >long :</label>
+                        <input type="number"id="long" value="55">
+                    </div>
+                    </div>
+                    
+                    <div class="equal">
+                        <label >offset STD :</label>
+                        <input type="text"id="offsetSTD" value="offset STD">
+                    </div>
+
+                    <div class="equal">
+                        <label >offset STD seconds :</label>
+         <input type="text"id="offsetSTDseconds" value="offset STD seconds">
+                    </div>
+                    <div class="equal">
+                        <label >offset DST :</label>
+                        <input type="text"id="offsetDST" value="offset DST">
+                    </div>
+                    <div class="equal">
+                        <label >offset DST seconds :</label>
+                        <input type="text"id="offsetDSTseconds" value="offset DST seconds">
+                    </div>
+                    <div class="equal">
+                        <label >country :</label>
+                        <input type="text"id="country" value="country">
+                    </div>
+                    <div class="equal">
+                        <label >postcode :</label>
+                        <input type="number"id="postcode" value="231207">
+                    </div>
+                    <div class="equal">
+                        <label >city :</label>
+                        <input type="text"id="city" value="city">
+                    </div>
+                </div>
+            </div>
+            <div class="address">
+                <h1>enter address</h1>
+              <input type="text" id="last"><br><br>
+              <button class="btn" id="button">Submit</button>
+            </div>
+            <!-- <div class="mainS"> -->
+                <div id="box"></div>
+                <!-- <div class="equal"> -->
+                    
+                    <p id="output">
+
+                    </p> 
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
